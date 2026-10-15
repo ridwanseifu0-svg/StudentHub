@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub - Assignments</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>StudentHub</h1>
+      <p>Your personal study planner</p>
+    </header>
+
+    <main>
+      <section class="assignment-section">
+        <h2>My Assignments</h2>
+        <p>Add your assignments and track your progress.</p>
+
+        <form id="assignmentForm">
+          <input
+            type="text"
+            id="assignmentInput"
+            placeholder="Enter an assignment"
+            required
+          />
+          <button type="submit">Add Assignment</button>
+        </form>
+
+        <ul id="assignmentList"></ul>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
